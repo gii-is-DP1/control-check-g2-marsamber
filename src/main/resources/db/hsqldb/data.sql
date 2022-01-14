@@ -62,3 +62,8 @@ INSERT INTO visits(id,pet_id,visit_date,description) VALUES (2, 8, '2013-01-02',
 INSERT INTO visits(id,pet_id,visit_date,description) VALUES (3, 8, '2013-01-03', 'neutered');
 INSERT INTO visits(id,pet_id,visit_date,description) VALUES (4, 7, '2013-01-04', 'spayed');
 
+INSERT INTO feeding_types VALUES (1, 'Using a standard 8 oz/250 ml measuring cup which contains approximately 112 g of food: For a body weight of 3 - 12, feed with 1/2 to 2/3 cups until 3 months.', 'High Protein Puppy Food', 2);
+INSERT INTO feeding_types VALUES (2, 'Chicken and Rice Formula Dry Cat Food. Feed 1 can per 2-1/2 lbs of body weight daily. Adjust as needed. Divide into 2 or more meals.', 'Adult Weight Management', 1);
+
+INSERT INTO feedings VALUES (1, '2022-01-05', 7.5, 2, 7);
+INSERT INTO feedings VALUES (2, '2022-01-04', 6, 1, 4);
